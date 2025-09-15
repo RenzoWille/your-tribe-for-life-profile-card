@@ -2,12 +2,20 @@
     let { data } = $props();
 
     const member = data.member;
+    const avatar = member.avatar;
+
+    import { Avatar } from '$lib';
+
 </script>
 
-<img class="pc-avatar" src={member.avatar} alt="member avatar" />
+
+<Avatar {avatar} />
+
+<!-- <img class="pc-avatar" src={member.avatar} alt="member avatar" /> -->
 <h1 class="pc-title">{member.name}</h1>
 <h3 class="pc-nickname">{member.nickname}</h3>
 <p style="display: none" class="pc-bio">{member.bio}</p>
+
 
 <div class="button-section">
     <button class="skill-button">CSS</button>
@@ -53,16 +61,6 @@
         background-color: #444444;
         font-family: "Inter", sans-serif;
         margin: 0;
-    }
-
-    .pc-avatar {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        object-fit: cover;
-        display: block; /* maakt de img block i.p.v. inline */
-        margin: 0 auto;
-        margin-top: 2.5rem;
     }
 
     .pc-title {
