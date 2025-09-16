@@ -126,7 +126,7 @@
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-        height: 600px;
+        height: 60vh;
 
         h3 {
             padding-left: 1.5rem;

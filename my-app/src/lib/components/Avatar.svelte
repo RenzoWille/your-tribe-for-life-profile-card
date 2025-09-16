@@ -12,6 +12,6 @@
        object-fit: cover;
        display: block;
        margin: 0 auto;
-       margin-top: 2.5rem;
+       margin-top: 5rem;
    }
 </style>
