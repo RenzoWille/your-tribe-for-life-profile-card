@@ -45,7 +45,7 @@
             <h3>Find me on</h3>
 
             <div class="links-buttons">
-                <a class="pc-website" href={member.website} target="_blank"
+                <a class="pc-website" href="https://github.com/RenzoWille" target="_blank"
                     >Github</a
                 >
                 <a
