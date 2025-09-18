@@ -180,6 +180,7 @@
                 color: white;
                 padding: 2.5rem 0 1rem 0;
                 margin: 0 0 0 .25rem;
+                font-size: 1.2rem;
             }
         }
 
